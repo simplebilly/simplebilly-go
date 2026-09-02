@@ -1,0 +1,314 @@
+# PaymentCreate
+
+## Properties
+
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**Amount** | Pointer to **string** |  | [optional] 
+**Attachment** | Pointer to **interface{}** |  | [optional] 
+**Currency** | Pointer to **string** |  | [optional] 
+**CustomerId** | Pointer to **NullableString** | References the customer entity. | [optional] 
+**Description** | Pointer to **NullableString** |  | [optional] 
+**Metadata** | Pointer to **interface{}** |  | [optional] 
+**Method** | Pointer to [**PaymentMethod**](PaymentMethod.md) |  | [optional] 
+**PaymentDate** | Pointer to **time.Time** |  | [optional] 
+**Reference** | Pointer to **NullableString** |  | [optional] 
+
+## Methods
+
+### NewPaymentCreate
+
+`func NewPaymentCreate() *PaymentCreate`
+
+NewPaymentCreate instantiates a new PaymentCreate object
+This constructor will assign default values to properties that have it defined,
+and makes sure properties required by API are set, but the set of arguments
+will change when the set of required properties is changed
+
+### NewPaymentCreateWithDefaults
+
+`func NewPaymentCreateWithDefaults() *PaymentCreate`
+
+NewPaymentCreateWithDefaults instantiates a new PaymentCreate object
+This constructor will only assign default values to properties that have it defined,
+but it doesn't guarantee that properties required by API are set
+
+### GetAmount
+
+`func (o *PaymentCreate) GetAmount() string`
+
+GetAmount returns the Amount field if non-nil, zero value otherwise.
+
+### GetAmountOk
+
+`func (o *PaymentCreate) GetAmountOk() (*string, bool)`
+
+GetAmountOk returns a tuple with the Amount field if it's non-nil, zero value otherwise
+and a boolean to check if the value has been set.
+
+### SetAmount
+
+`func (o *PaymentCreate) SetAmount(v string)`
+
+SetAmount sets Amount field to given value.
+
+### HasAmount
+
+`func (o *PaymentCreate) HasAmount() bool`
+
+HasAmount returns a boolean if a field has been set.
+
+### GetAttachment
+
+`func (o *PaymentCreate) GetAttachment() interface{}`
+
+GetAttachment returns the Attachment field if non-nil, zero value otherwise.
+
+### GetAttachmentOk
+
+`func (o *PaymentCreate) GetAttachmentOk() (*interface{}, bool)`
+
+GetAttachmentOk returns a tuple with the Attachment field if it's non-nil, zero value otherwise
+and a boolean to check if the value has been set.
+
+### SetAttachment
+
+`func (o *PaymentCreate) SetAttachment(v interface{})`
+
+SetAttachment sets Attachment field to given value.
+
+### HasAttachment
+
+`func (o *PaymentCreate) HasAttachment() bool`
+
+HasAttachment returns a boolean if a field has been set.
+
+### SetAttachmentNil
+
+`func (o *PaymentCreate) SetAttachmentNil(b bool)`
+
+ SetAttachmentNil sets the value for Attachment to be an explicit nil
+
+### UnsetAttachment
+`func (o *PaymentCreate) UnsetAttachment()`
+
+UnsetAttachment ensures that no value is present for Attachment, not even an explicit nil
+### GetCurrency
+
+`func (o *PaymentCreate) GetCurrency() string`
+
+GetCurrency returns the Currency field if non-nil, zero value otherwise.
+
+### GetCurrencyOk
+
+`func (o *PaymentCreate) GetCurrencyOk() (*string, bool)`
+
+GetCurrencyOk returns a tuple with the Currency field if it's non-nil, zero value otherwise
+and a boolean to check if the value has been set.
+
+### SetCurrency
+
+`func (o *PaymentCreate) SetCurrency(v string)`
+
+SetCurrency sets Currency field to given value.
+
+### HasCurrency
+
+`func (o *PaymentCreate) HasCurrency() bool`
+
+HasCurrency returns a boolean if a field has been set.
+
+### GetCustomerId
+
+`func (o *PaymentCreate) GetCustomerId() string`
+
+GetCustomerId returns the CustomerId field if non-nil, zero value otherwise.
+
+### GetCustomerIdOk
+
+`func (o *PaymentCreate) GetCustomerIdOk() (*string, bool)`
+
+GetCustomerIdOk returns a tuple with the CustomerId field if it's non-nil, zero value otherwise
+and a boolean to check if the value has been set.
+
+### SetCustomerId
+
+`func (o *PaymentCreate) SetCustomerId(v string)`
+
+SetCustomerId sets CustomerId field to given value.
+
+### HasCustomerId
+
+`func (o *PaymentCreate) HasCustomerId() bool`
+
+HasCustomerId returns a boolean if a field has been set.
+
+### SetCustomerIdNil
+
+`func (o *PaymentCreate) SetCustomerIdNil(b bool)`
+
+ SetCustomerIdNil sets the value for CustomerId to be an explicit nil
+
+### UnsetCustomerId
+`func (o *PaymentCreate) UnsetCustomerId()`
+
+UnsetCustomerId ensures that no value is present for CustomerId, not even an explicit nil
+### GetDescription
+
+`func (o *PaymentCreate) GetDescription() string`
+
+GetDescription returns the Description field if non-nil, zero value otherwise.
+
+### GetDescriptionOk
+
+`func (o *PaymentCreate) GetDescriptionOk() (*string, bool)`
+
+GetDescriptionOk returns a tuple with the Description field if it's non-nil, zero value otherwise
+and a boolean to check if the value has been set.
+
+### SetDescription
+
+`func (o *PaymentCreate) SetDescription(v string)`
+
+SetDescription sets Description field to given value.
+
+### HasDescription
+
+`func (o *PaymentCreate) HasDescription() bool`
+
+HasDescription returns a boolean if a field has been set.
+
+### SetDescriptionNil
+
+`func (o *PaymentCreate) SetDescriptionNil(b bool)`
+
+ SetDescriptionNil sets the value for Description to be an explicit nil
+
+### UnsetDescription
+`func (o *PaymentCreate) UnsetDescription()`
+
+UnsetDescription ensures that no value is present for Description, not even an explicit nil
+### GetMetadata
+
+`func (o *PaymentCreate) GetMetadata() interface{}`
+
+GetMetadata returns the Metadata field if non-nil, zero value otherwise.
+
+### GetMetadataOk
+
+`func (o *PaymentCreate) GetMetadataOk() (*interface{}, bool)`
+
+GetMetadataOk returns a tuple with the Metadata field if it's non-nil, zero value otherwise
+and a boolean to check if the value has been set.
+
+### SetMetadata
+
+`func (o *PaymentCreate) SetMetadata(v interface{})`
+
+SetMetadata sets Metadata field to given value.
+
+### HasMetadata
+
+`func (o *PaymentCreate) HasMetadata() bool`
+
+HasMetadata returns a boolean if a field has been set.
+
+### SetMetadataNil
+
+`func (o *PaymentCreate) SetMetadataNil(b bool)`
+
+ SetMetadataNil sets the value for Metadata to be an explicit nil
+
+### UnsetMetadata
+`func (o *PaymentCreate) UnsetMetadata()`
+
+UnsetMetadata ensures that no value is present for Metadata, not even an explicit nil
+### GetMethod
+
+`func (o *PaymentCreate) GetMethod() PaymentMethod`
+
+GetMethod returns the Method field if non-nil, zero value otherwise.
+
+### GetMethodOk
+
+`func (o *PaymentCreate) GetMethodOk() (*PaymentMethod, bool)`
+
+GetMethodOk returns a tuple with the Method field if it's non-nil, zero value otherwise
+and a boolean to check if the value has been set.
+
+### SetMethod
+
+`func (o *PaymentCreate) SetMethod(v PaymentMethod)`
+
+SetMethod sets Method field to given value.
+
+### HasMethod
+
+`func (o *PaymentCreate) HasMethod() bool`
+
+HasMethod returns a boolean if a field has been set.
+
+### GetPaymentDate
+
+`func (o *PaymentCreate) GetPaymentDate() time.Time`
+
+GetPaymentDate returns the PaymentDate field if non-nil, zero value otherwise.
+
+### GetPaymentDateOk
+
+`func (o *PaymentCreate) GetPaymentDateOk() (*time.Time, bool)`
+
+GetPaymentDateOk returns a tuple with the PaymentDate field if it's non-nil, zero value otherwise
+and a boolean to check if the value has been set.
+
+### SetPaymentDate
+
+`func (o *PaymentCreate) SetPaymentDate(v time.Time)`
+
+SetPaymentDate sets PaymentDate field to given value.
+
+### HasPaymentDate
+
+`func (o *PaymentCreate) HasPaymentDate() bool`
+
+HasPaymentDate returns a boolean if a field has been set.
+
+### GetReference
+
+`func (o *PaymentCreate) GetReference() string`
+
+GetReference returns the Reference field if non-nil, zero value otherwise.
+
+### GetReferenceOk
+
+`func (o *PaymentCreate) GetReferenceOk() (*string, bool)`
+
+GetReferenceOk returns a tuple with the Reference field if it's non-nil, zero value otherwise
+and a boolean to check if the value has been set.
+
+### SetReference
+
+`func (o *PaymentCreate) SetReference(v string)`
+
+SetReference sets Reference field to given value.
+
+### HasReference
+
+`func (o *PaymentCreate) HasReference() bool`
+
+HasReference returns a boolean if a field has been set.
+
+### SetReferenceNil
+
+`func (o *PaymentCreate) SetReferenceNil(b bool)`
+
+ SetReferenceNil sets the value for Reference to be an explicit nil
+
+### UnsetReference
+`func (o *PaymentCreate) UnsetReference()`
+
+UnsetReference ensures that no value is present for Reference, not even an explicit nil
+
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+
+

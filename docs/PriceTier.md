@@ -1,0 +1,134 @@
+# PriceTier
+
+## Properties
+
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**CustomerGroupId** | Pointer to **NullableString** | None &#x3D; tier applies to all customers; otherwise a customer group id. | [optional] 
+**MinQuantity** | Pointer to **int64** | Quantity from which this tier applies (inclusive). | [optional] 
+**ProductId** | **string** | References the product entity. | 
+**UnitPrice** | **string** | Net unit price once &#x60;min_quantity&#x60; is reached. | 
+
+## Methods
+
+### NewPriceTier
+
+`func NewPriceTier(productId string, unitPrice string, ) *PriceTier`
+
+NewPriceTier instantiates a new PriceTier object
+This constructor will assign default values to properties that have it defined,
+and makes sure properties required by API are set, but the set of arguments
+will change when the set of required properties is changed
+
+### NewPriceTierWithDefaults
+
+`func NewPriceTierWithDefaults() *PriceTier`
+
+NewPriceTierWithDefaults instantiates a new PriceTier object
+This constructor will only assign default values to properties that have it defined,
+but it doesn't guarantee that properties required by API are set
+
+### GetCustomerGroupId
+
+`func (o *PriceTier) GetCustomerGroupId() string`
+
+GetCustomerGroupId returns the CustomerGroupId field if non-nil, zero value otherwise.
+
+### GetCustomerGroupIdOk
+
+`func (o *PriceTier) GetCustomerGroupIdOk() (*string, bool)`
+
+GetCustomerGroupIdOk returns a tuple with the CustomerGroupId field if it's non-nil, zero value otherwise
+and a boolean to check if the value has been set.
+
+### SetCustomerGroupId
+
+`func (o *PriceTier) SetCustomerGroupId(v string)`
+
+SetCustomerGroupId sets CustomerGroupId field to given value.
+
+### HasCustomerGroupId
+
+`func (o *PriceTier) HasCustomerGroupId() bool`
+
+HasCustomerGroupId returns a boolean if a field has been set.
+
+### SetCustomerGroupIdNil
+
+`func (o *PriceTier) SetCustomerGroupIdNil(b bool)`
+
+ SetCustomerGroupIdNil sets the value for CustomerGroupId to be an explicit nil
+
+### UnsetCustomerGroupId
+`func (o *PriceTier) UnsetCustomerGroupId()`
+
+UnsetCustomerGroupId ensures that no value is present for CustomerGroupId, not even an explicit nil
+### GetMinQuantity
+
+`func (o *PriceTier) GetMinQuantity() int64`
+
+GetMinQuantity returns the MinQuantity field if non-nil, zero value otherwise.
+
+### GetMinQuantityOk
+
+`func (o *PriceTier) GetMinQuantityOk() (*int64, bool)`
+
+GetMinQuantityOk returns a tuple with the MinQuantity field if it's non-nil, zero value otherwise
+and a boolean to check if the value has been set.
+
+### SetMinQuantity
+
+`func (o *PriceTier) SetMinQuantity(v int64)`
+
+SetMinQuantity sets MinQuantity field to given value.
+
+### HasMinQuantity
+
+`func (o *PriceTier) HasMinQuantity() bool`
+
+HasMinQuantity returns a boolean if a field has been set.
+
+### GetProductId
+
+`func (o *PriceTier) GetProductId() string`
+
+GetProductId returns the ProductId field if non-nil, zero value otherwise.
+
+### GetProductIdOk
+
+`func (o *PriceTier) GetProductIdOk() (*string, bool)`
+
+GetProductIdOk returns a tuple with the ProductId field if it's non-nil, zero value otherwise
+and a boolean to check if the value has been set.
+
+### SetProductId
+
+`func (o *PriceTier) SetProductId(v string)`
+
+SetProductId sets ProductId field to given value.
+
+
+### GetUnitPrice
+
+`func (o *PriceTier) GetUnitPrice() string`
+
+GetUnitPrice returns the UnitPrice field if non-nil, zero value otherwise.
+
+### GetUnitPriceOk
+
+`func (o *PriceTier) GetUnitPriceOk() (*string, bool)`
+
+GetUnitPriceOk returns a tuple with the UnitPrice field if it's non-nil, zero value otherwise
+and a boolean to check if the value has been set.
+
+### SetUnitPrice
+
+`func (o *PriceTier) SetUnitPrice(v string)`
+
+SetUnitPrice sets UnitPrice field to given value.
+
+
+
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+
+
